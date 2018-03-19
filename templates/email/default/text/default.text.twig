@@ -1,0 +1,22 @@
+{% if block == 'default' %}
+    {% block default %}
+        {{ titulo }}
+        {% if data %}
+            Realizado no dia {{ data }} às {{ hora }}.
+        {% endif %}
+        {{ mensagem }}
+        {{ footer }}
+    {% endblock %}
+{% endif %}
+
+
+{% if block == 'orther' %}
+    {% block orther %}
+        {{ titulo }}
+        {% if data %}
+            Realizado no dia {{ data }} às {{ hora }}.
+        {% endif %}
+        {{ mensagem }}
+        {{ footer }}
+    {% endblock %}
+{% endif %}

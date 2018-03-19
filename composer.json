@@ -1,0 +1,32 @@
+{
+  "name": "DouglasMariz/email-twig-pdf",
+  "type": "library",
+  "description": "Email-Twig-PDF é uma classe de abstração para submissão de e-mail, gera PDF e usa Twig para renderizar o modelo",
+  "keywords": ["email", "twig", "pdf", "html2pdf", "swiftmailer"],
+  "homepage": "https://github.com/DouglasMariz/email-twig-pdf",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Douglas Mariz",
+      "homepage": "https://github.com/DouglasMariz",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src"
+    ],
+    "psr-4": {
+      "email-twig-pdf\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.6.3",
+    "twig/twig": "v1.35.0",
+    "swiftmailer/swiftmailer": "5.4.9",
+    "spipu/html2pdf": "5.1.0"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "3.3.14"
+  }
+}

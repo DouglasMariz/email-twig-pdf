@@ -1,0 +1,12 @@
+# Eclipse
+/.settings/
+/.buildpath
+/.project
+/nbproject
+
+# PHPStorm
+/.idea
+
+# Composer
+/vendor/
+/composer.lock
