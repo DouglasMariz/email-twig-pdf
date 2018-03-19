@@ -34,6 +34,9 @@ try {
         ->pdf()
         ->sendMail();
 
+    if($result)
+        echo 'Enviado com sucesso!';
+
 } catch (Exception $e) {
     echo $e->getMessage();
 }
