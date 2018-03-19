@@ -1,5 +1,5 @@
 {
-  "name": "DouglasMariz/email-twig-pdf",
+  "name": "douglasmariz/email-twig-pdf",
   "type": "library",
   "description": "Email-Twig-PDF é uma classe de abstração para submissão de e-mail, gera PDF e usa Twig para renderizar o modelo",
   "keywords": ["email", "twig", "pdf", "html2pdf", "swiftmailer"],
