@@ -405,7 +405,7 @@ class EmailTwigPdf_Email
     private function path()
     {
         $path = '\..\templates\email';
-        return ($this->templatePath) ? $this->templatePath . $path : __DIR__ . $path;
+        return ($this->templatePath) ? $this->templatePath : __DIR__ . $path;
     }
 
     /**
