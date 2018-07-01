@@ -5,7 +5,6 @@
   "keywords": ["email", "twig", "pdf", "html2pdf", "swiftmailer"],
   "homepage": "https://github.com/DouglasMariz/email-twig-pdf",
   "license": "MIT",
-  "version": "1.0.*",
   "authors": [
     {
       "name": "Douglas Mariz",
@@ -14,7 +13,6 @@
       "role": "Developer"
     }
   ],
-  "minimum-stability": "stable",
   "autoload": {
     "classmap": [
       "src"
