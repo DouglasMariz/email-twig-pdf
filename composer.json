@@ -5,13 +5,16 @@
   "keywords": ["email", "twig", "pdf", "html2pdf", "swiftmailer"],
   "homepage": "https://github.com/DouglasMariz/email-twig-pdf",
   "license": "MIT",
+  "version": "1.0.*",
   "authors": [
     {
       "name": "Douglas Mariz",
-      "homepage": "https://github.com/DouglasMariz",
+      "email": "douglasmariz.developer@gmail.com",
+      "homepage": "http://douglasmariz.tk",
       "role": "Developer"
     }
   ],
+  "minimum-stability": "stable",
   "autoload": {
     "classmap": [
       "src"
