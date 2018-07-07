@@ -103,7 +103,10 @@ class EmailTwigPdf_Email
 
     /**
      * @throws EmailTwigPdf_Exception
-     * @throws \Exception
+     * @throws \Throwable
+     * @throws \Twig_Error_Loader
+     * @throws \Twig_Error_Runtime
+     * @throws \Twig_Error_Syntax
      */
     private function setSwiftMessage()
     {
