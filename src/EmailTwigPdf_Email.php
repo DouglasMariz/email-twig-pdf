@@ -83,18 +83,13 @@ class EmailTwigPdf_Email
 
         } catch (\Swift_RfcComplianceException $complianceException) {
             $this->pdfCallBack();
-            $msg = "O endereço de email $this->to não está em conformidade com RFC 2822, 3.6.2";
-            dump($msg);
-            exit;
+            return "O endereço de email $this->to não está em conformidade com RFC 2822, 3.6.2";
         } catch (EmailTwigPdf_Exception $emailTwigPdf_Exception) {
             $this->pdfCallBack();
-            dump($emailTwigPdf_Exception);
-            exit;
+            return $emailTwigPdf_Exception->getMessage();
         } catch (\Exception $e) {
             $this->pdfCallBack();
-            $msg = 'Falha no envio.';
-            dump($msg, $e);
-            exit;
+            return 'Falha no envio.';
         }
     }
 
