@@ -23,9 +23,9 @@
   },
   "require": {
     "php": ">=7.0.0",
-    "twig/twig": "v1.35.0",
+    "twig/twig": "v2.5.0",
     "swiftmailer/swiftmailer": "6.1.2",
-    "spipu/html2pdf": "5.1.0"
+    "spipu/html2pdf": "5.2.*"
   },
   "require-dev": {
     "symfony/var-dumper": "3.3.14"
